@@ -156,7 +156,7 @@ nav{
 } 
 /* For Footer*/
 .page-footer{
-	background-color: rgba(196, 196, 196, 0.1);
+	background-color:rgba(0, 0, 0, 0.5);
     height: 45vh;
 }
 /* Renting Page */
@@ -292,4 +292,32 @@ nav{
     align-items: baseline;
     height:50%;
     bottom:0;
+}
+#belownav{
+    background-image: url( '../img/fewa.png');
+    width: 100%;
+    border-style: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+     
+}
+#login{
+     margin-left: 30px; 
+     margin-top: 10px;
+    text-align: center;
+    background-color:rgba(51, 115, 136, 0.56);
+    border-style:hidden;
+    width: 425px;
+     height: 391px;
+     border-radius: 65px;
+     padding-left: 30px;
+}
+#log{
+     
+    text-align: left;
+    padding-left: 100px;
+}
+#foot{
+  border-radius: 55px;
 }
